@@ -1,0 +1,73 @@
+{
+	"data": [{
+		"type": "bar",
+		"file": "time_series_covid19_confirmed_global.csv",
+		"title": "Confirmed cases of COVID-19: Worldwide",
+		"source": "https://data.humdata.org/dataset/novel-coronavirus-2019-ncov-cases",
+		"last_updated": "Jan. 26, 2021 @ 9:54 EST",
+		"starting_height_scale": 0.25,
+		"starting_left_from_screen": 32,
+		"number_to_start_compressing": 2000
+	}, {
+		"type": "bar",
+		"file": "time_series_covid19_recovered_global.csv",
+		"title": "Cases of recoving from COVID-19: Worldwide",
+		"source": "https://data.humdata.org/dataset/novel-coronavirus-2019-ncov-cases",
+		"last_updated": "Jan. 26, 2021 @ 9:54 EST",
+		"starting_height_scale": 4,
+		"starting_left_from_screen": 32,
+		"number_to_start_compressing": 100
+	}, {
+		"type": "bar",
+		"file": "time_series_covid19_deaths_global.csv",
+		"title": "Deaths from COVID-19: Worldwide",
+		"source": "https://data.humdata.org/dataset/novel-coronavirus-2019-ncov-cases",
+		"last_updated": "Jan. 26, 2021 @ 9:54 EST",
+		"starting_height_scale": 8,
+		"starting_left_from_screen": 32,
+		"number_to_start_compressing": 50
+	}, {
+		"type": "compare",
+		"file": "time_series_covid19_confirmed_global.csv",
+		"file2": "time_series_covid19_recovered_global.csv",
+		"title": "Recoveries against cases from COVID-19: WW",
+		"source": "https://data.humdata.org/dataset/novel-coronavirus-2019-ncov-cases",
+		"last_updated": "Jan. 26, 2021 @ 9:54 EST",
+		"starting_left_from_screen": 32
+	}, {
+		"type": "compare",
+		"file": "time_series_covid19_confirmed_global.csv",
+		"file2": "time_series_covid19_deaths_global.csv",
+		"title": "Deaths against cases from COVID-19: WW",
+		"source": "https://data.humdata.org/dataset/novel-coronavirus-2019-ncov-cases",
+		"last_updated": "Jan. 26, 2021 @ 9:54 EST",
+		"starting_left_from_screen": 32
+	}, {
+		"type": "leading",
+		"file": "time_series_covid19_confirmed_global.csv",
+		"title": "Country with most COVID-19 cases per day",
+		"source": "https://data.humdata.org/dataset/novel-coronavirus-2019-ncov-cases",
+		"last_updated": "Jan. 26, 2021 @ 9:54 EST",
+		"starting_height_scale": 0.25,
+		"starting_left_from_screen": 32,
+		"number_to_start_compressing": 2000
+	}, {
+		"type": "leading",
+		"file": "time_series_covid19_recovered_global.csv",
+		"title": "Country with most COVID-19 recoveries per day",
+		"source": "https://data.humdata.org/dataset/novel-coronavirus-2019-ncov-cases",
+		"last_updated": "Jan. 26, 2021 @ 9:54 EST",
+		"starting_height_scale": 4,
+		"starting_left_from_screen": 32,
+		"number_to_start_compressing": 100
+	}, {
+		"type": "leading",
+		"file": "time_series_covid19_deaths_global.csv",
+		"title": "Country with most COVID-19 deaths per day",
+		"source": "https://data.humdata.org/dataset/novel-coronavirus-2019-ncov-cases",
+		"last_updated": "Jan. 26, 2021 @ 9:54 EST",
+		"starting_height_scale": 8,
+		"starting_left_from_screen": 32,
+		"number_to_start_compressing": 50
+	}]
+}

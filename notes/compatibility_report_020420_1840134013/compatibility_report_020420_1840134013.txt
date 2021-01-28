@@ -1,0 +1,14 @@
+Converting GML script: ${project_dir}\scripts\approach\approach.gml
+Converted description /// @description approach(current, target, amount)/// @param current
+/// @param  target
+/// @param  amount
+
+Converting GML script: ${project_dir}\scripts\angle_approach\angle_approach.gml
+Converted description /// @description angle_approach(current, target, turn_speed)/// @param current
+/// @param  target
+/// @param  turn_speed
+
+Converting GML script: ${project_dir}\scripts\smooth_approach\smooth_approach.gml
+Converted description /// @description smooth_approach(current, target, speed[0-1])/// @param current
+/// @param  target
+/// @param  speed[0-1]
