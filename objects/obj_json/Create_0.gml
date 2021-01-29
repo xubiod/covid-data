@@ -5,7 +5,7 @@ selection = 0;
 visual_selection = 0;
 
 // JsonParser_doParse(JsonParser_create(json_string))
-data = JsonParser_doParse(JsonParser_create(file_text_open_read_all("data_list.json")));
+data = (os_browser == browser_not_a_browser) ? json_parse(file_text_open_read_all("data_list.json")) : JsonParser_doParse(JsonParser_create(file_text_open_read_all("data_list.json")));
 
 all_data = data.data;
 
