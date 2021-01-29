@@ -32,7 +32,7 @@ function _execute(i, type, file, title, src, last_update) {
 			var v3 = all_data[i].number_to_start_compressing;
 		
 			load_for_bar(file, title, src, last_update, v1, v2, v3);
-			debug_fuckshit(file, title, src, last_update, v1, v2, v3);
+			if (debug_mode) debug_fuckshit(file, title, src, last_update, v1, v2, v3);
 		
 			room_goto(room_visualize_bar); 
 			break; 
@@ -41,7 +41,7 @@ function _execute(i, type, file, title, src, last_update) {
 			var v1 = all_data[i].file2;
 			var v2 = all_data[i].starting_left_from_screen;
 			load_for_compare(file, v1, title, src, last_update, v2);
-			debug_fuckshit(file, v1, title, src, last_update, v2);
+			if (debug_mode) debug_fuckshit(file, v1, title, src, last_update, v2);
 			room_goto(room_visualize_compare); 
 			break; 
 		}
@@ -51,7 +51,7 @@ function _execute(i, type, file, title, src, last_update) {
 			var v3 = all_data[i].number_to_start_compressing;
 		
 			load_for_leading(file, title, src, last_update, v1, v2, v3);
-			debug_fuckshit(file, title, src, last_update, v1, v2, v3);
+			if (debug_mode) debug_fuckshit(file, title, src, last_update, v1, v2, v3);
 			room_goto(room_visualize_leading); 
 			break; 
 		}
